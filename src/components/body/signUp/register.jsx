@@ -23,7 +23,11 @@ export default class Register extends Component {
       storageBucket: "",
       messagingSenderId: "839940906759"
     };
-    firebase.initializeApp(config);
+    // firebase.initializeApp(config);
+
+    if (!firebase.apps.length) {
+      firebase.initializeApp(config);
+    }
   }
   matchPassword(event) {
     var password = document.getElementById("password").value;

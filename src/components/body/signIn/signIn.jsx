@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "../../header/header";
 import Footer from "../../footer/footer";
 import * as firebase from "firebase";
+import { Link } from "react-router-dom";
 
 import "./signIn.css";
 import {
@@ -33,7 +34,11 @@ export default class SignIn extends Component {
       storageBucket: "",
       messagingSenderId: "839940906759"
     };
-    firebase.initializeApp(config);
+
+    if (!firebase.apps.length) {
+      firebase.initializeApp(config);
+    }
+    // firebase.initializeApp();
   }
 
   handleSubmit = e => {
@@ -126,14 +131,14 @@ export default class SignIn extends Component {
                             </a>
                           </Col>
                           <Col md="6">
-                            <a
+                            <Link
+                              to="register"
                               className="terms-of-use"
                               style={{ color: "#007bff", margin: "0 0 0 40px" }}
                               href="/"
                             >
-                              {" "}
                               New User?Register Here{" "}
-                            </a>
+                            </Link>
                           </Col>
                         </Row>
                       </div>
