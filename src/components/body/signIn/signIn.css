@@ -1,0 +1,53 @@
+.field-set{
+    width: 50%;
+    margin: auto;
+}
+
+.Input-Control{
+    width: 50%;
+    margin-left: 15px;
+    display: inline !important;
+}
+.form-signIn{
+    margin: 40px 0;
+    text-align: center;
+}
+.checkBox{
+    margin: 0 50px 0 -20px;
+}
+.submit-section{
+    width: 50%;
+    margin: auto;
+}
+.loginBtn{
+    padding: 15px 0;
+    background: #F3F3F3;
+    width: 100%;
+    margin: 0 0 0 35px;
+}
+.logInBtn{
+    width: 50%;
+    padding: 10px;
+}
+.signIn-failure-link{
+    font-size: 12px;
+    color: #2965be;
+    margin: 20px 0 0 0;
+}
+.terms-of-use{
+    text-align: center
+}
+
+
+
+
+@media screen and (max-width: 780px) {
+    .field-set{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 540px) {
+    .field-set{
+        width: 95%;
+    }
+}

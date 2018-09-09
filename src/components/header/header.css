@@ -1,0 +1,58 @@
+.CustomeNavbar {
+  padding: 0;
+}
+.header {
+  width: 64.8%;
+  margin: 0 auto;
+  margin-bottom: 0px;
+}
+.logo {
+  height: 85px;
+  width: 85px;
+  top: -1px;
+}
+.top-heading {
+  top: 34px;
+  left: 108px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.user-icon {
+  width: 50px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.user-account {
+  border: 1px solid #eee;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+.user-account:hover {
+  cursor: pointer;
+  color: #ff7700;
+}
+.link {
+  color: #2965be;
+  font-size: 17px;
+}
+.link:hover {
+  color: #ff7700;
+}
+.add {
+  border: 1px solid #ff7700;
+  padding: 8px 12px;
+  border-radius: 3px;
+  margin-left: 20px;
+  background: #ff7700;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+.bar-code {
+  margin: 10px;
+  padding: 3px;
+  padding-left: 3px;
+  margin-top: 2px;
+  border: 1px solid black;
+}

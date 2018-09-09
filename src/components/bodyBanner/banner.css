@@ -1,0 +1,13 @@
+.container {
+  width: 64%;
+  margin: 0 auto;
+}
+img-banner {
+  width: 100px;
+  height: 100px;
+}
+.banner {
+  padding: 10px;
+  float: "right";
+  margin-left: 10px;
+}

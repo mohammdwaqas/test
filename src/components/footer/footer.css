@@ -1,0 +1,27 @@
+.border{
+    border-top: 1px solid;
+}
+.footer{
+    width: 64.8%;
+    margin: auto;
+    font-size: 14px;
+  }
+ .olx_logo{
+    height: 85px;
+    width: 85px;
+    top: -1px
+}
+.contactUs{
+    font-size: 19px;
+}
+.email-setting{
+    margin-bottom: 10px;
+}
+.icons{
+    width: 20px;
+    margin-right: 4px;
+}
+.small{
+    display: block;
+    margin: 0 0 15px 0;
+}

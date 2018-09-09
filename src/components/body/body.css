@@ -1,0 +1,144 @@
+.container {
+  width: 64%;
+  margin: 0 auto;
+}
+
+.container h2 {
+  padding: 10px;
+}
+
+/* Search bar css */
+.searchbar-background {
+  background: url("../images/search_bar.png") center center no-repeat;
+  background-size: auto;
+  padding: 10px;
+  background-size: cover;
+  border-radius: 5px;
+}
+.searchbar-holder {
+  padding: 7px;
+  background: rgb(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.locationInput {
+  padding: 10px 5px;
+  line-height: 24px;
+  display: inline;
+  margin: 0 15px 0 0;
+  background: white;
+  border-radius: 5px;
+}
+.map-img {
+  height: 20px;
+  display: inline;
+}
+.inputs {
+  display: inline;
+  width: 27%;
+  border: none;
+}
+.inputs:active {
+  border: 1px solid none;
+  text-decoration: none;
+}
+.addsInput {
+  width: 47%;
+}
+.searchBtn {
+  background: rgb(41, 101, 190);
+  display: inline;
+  width: 15%;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+.search-btn-img {
+  height: 25px;
+  margin: 0 10px 0 0;
+}
+/* end of search bar css */
+
+/* css for menu items */
+.row {
+  margin: 20px 0;
+}
+.icons-setting {
+  text-align: center;
+}
+.icons-div {
+  max-width: 100%;
+  /* height: 125px; */
+  padding-top: 20px;
+  /* border: solid 1px black;
+  border-radius: 20px; */
+  margin: 2px;
+
+  font-size: 15px;
+}
+
+.icons-div:hover {
+  background: rgb(241, 240, 238);
+  font-size: 15px;
+}
+.icons-div:hover p {
+  color: rgb(7, 6, 0);
+}
+/* end of menu items css */
+
+/* css for featured Item */
+.cards {
+  height: 165px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.card1 {
+  background: url("../images/gawadar.jpg") no-repeat;
+  background-size: 240px 165px;
+}
+.card2 {
+  background: url("../images/dubai.jpg") no-repeat;
+  background-size: 240px 165px;
+}
+.card3 {
+  background: url("../images/property.jpg") no-repeat;
+  background-size: 240px 165px;
+}
+.card4 {
+  background: url("../images/cars.jpg") no-repeat;
+  background-size: cover;
+}
+.cardText {
+  margin-top: 140px;
+  color: white;
+  background: rgb(0, 0, 0, 0.5);
+  padding-left: 5px;
+}
+.card-text:hover {
+  background: rgb(253, 253, 253);
+}
+/* css ends for featured list */
+
+/* css starts for greate stories */
+/* .greateStories{
+    margin: 50px 0 150px 0
+} */
+.sold {
+  color: white;
+  background: #d0021b;
+  border: 1px solid #d0021b;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 1px 8px;
+  float: left;
+  margin: -10px;
+}
+.stars {
+  text-align: right;
+  color: #f5a623;
+}
+/* css ends for greate stories */
+
+/* css starts for Sign In */
