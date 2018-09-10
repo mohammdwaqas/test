@@ -50,7 +50,7 @@ export default class Header extends Component {
               </NavItem>
               <NavItem>
                 <div className="add">
-                  <span>Submit An Add</span>
+                  <Link to='posting'>Submit An Add</Link>
                 </div>
               </NavItem>
             </Nav>

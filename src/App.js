@@ -6,6 +6,7 @@ import SignIn from "./components/body/signIn/signIn";
 import Register from "./components/body/signUp/register";
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
+import SubmitAd from './components/submitAd/submit'
 // import Register from "./components/body/signUp/register";
 // import Routes from "./components/Routes/Routes.jsx";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -17,6 +18,7 @@ class App extends Component {
         <Switch>
           <div>
             <Route path="/signin" component={SignIn} />
+            <Route path="/posting" component={SubmitAd} />
             <Route exact path="/" component={Comp} />
             <Route path="/register" component={Register} />
           </div>
